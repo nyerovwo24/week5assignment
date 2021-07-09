@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter App</title>
+    <link rel="stylesheet" href="five.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="center-width">
+            <h2>Unit-converter</h2>
+            <p>Type a value in any of the fields to convert between length measurements:</p>
+        </div>
+        <div class="unit-converter">
+            <div class="field">
+                <label>Meter</label>
+                <input type="number" placeholder="Meter" id="InputMeter" oninput="unitConverter(this.id, this.value)" onchange="unitConverter(this.id, this.value)">
+            </div>
+            <div class="field">
+                <label>Inches</label>
+                <input type="number" placeholder="Inches" id="InputInches" oninput="unitConverter(this.id, this.value)" onchange="unitConverter(this.id, this.value)">
+            </div>
+            <div class="field">
+                <label>Feet</label>
+                <input type="number" placeholder="Feet" id="InputFeet" oninput="unitConverter(this.id, this.value)" onchange="unitConverter(this.id, this.value)">
+            </div>
+            <div class="field">
+                <label>Yard</label>
+                <input type="number" placeholder="Yard" id="InputYard" oninput="unitConverter(this.id, this.value)" onchange="unitConverter(this.id, this.value)">
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="./rukeme.js"></script>
+</body>
+</html>
